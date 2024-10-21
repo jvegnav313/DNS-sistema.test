@@ -12,4 +12,5 @@ $TTL 86400;
 	7200)
 ;
 @	IN	NS	tierra.sistema.test.
+@	IN	A	192.168.57.103
 103 IN PTR tierra.sistema.test.
