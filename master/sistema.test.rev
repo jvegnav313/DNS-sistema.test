@@ -1,16 +1,18 @@
 ;
-; sistema.test
+; Reverse Zone for 192.168.57.0/24
 ;
-$TTL 86400;
-
+$TTL 86400
 @ IN SOA tierra.sistema.test. admin.sistema.test. (
-
-	1;
-	3600;
-	1800;
-	604800;
-	7200)
+    1      ; Serial
+    3600   ; Refresh
+    1800   ; Retry
+    604800 ; Expire
+    7200   ; Minimum TTL
+)
 ;
-@	IN	NS	tierra.sistema.test.
-@	IN	A	192.168.57.103
+@ IN NS tierra.sistema.test.
+
+101 IN PTR mercurio.sistema.test.
+102 IN PTR venus.sistema.test.
 103 IN PTR tierra.sistema.test.
+104 IN PTR marte.sistema.test.

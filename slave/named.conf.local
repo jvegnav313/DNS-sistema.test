@@ -12,4 +12,4 @@ zone  "sistema.test" {
 
 	masters { 192.168.57.103; };
 
-	allow-transfer { 192.168.57.102; };
+};
