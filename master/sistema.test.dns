@@ -3,7 +3,7 @@
 ;
 $TTL 86400;
 
-@ IN SOA sistema.test. admin.sistema.test. (
+@ IN SOA tierra.sistema.test. admin.sistema.test. (
 
 	1;
 	3600;

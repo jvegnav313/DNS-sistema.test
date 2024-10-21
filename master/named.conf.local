@@ -13,3 +13,10 @@ zone  "sistema.test" {
 	file "/var/lib/bind/sistema.test.dns";
 
 };
+
+zone "57.168.192.in-addr-arpa" {
+
+	type master;
+	file "/var/lib/bind/
+
+}

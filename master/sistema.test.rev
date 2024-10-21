@@ -1,0 +1,15 @@
+;
+; sistema.test
+;
+$TTL 86400;
+
+@ IN SOA tierra.sistema.test. admin.sistema.test. (
+
+	1;
+	3600;
+	1800;
+	604800;
+	7200)
+;
+@	IN	NS	tierra.sistema.test.
+103 IN PTR tierra.sistema.test.

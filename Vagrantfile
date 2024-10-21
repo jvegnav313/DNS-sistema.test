@@ -10,7 +10,8 @@ Vagrant.configure("2") do |config|
         cp -v /vagrant/master/named /etc/default
         cp -v /vagrant/master/named.conf.local /etc/bind
         cp -v /vagrant/master/named.conf.options /etc/bind
-
+        cp -v /vagrant/master/sistema.dns.master /var/lib/bind
+        
         systemctl restart bind9
 
       SHELL
