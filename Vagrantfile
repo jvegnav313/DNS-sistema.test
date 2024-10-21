@@ -7,6 +7,12 @@ Vagrant.configure("2") do |config|
         apt update
         apt install -y bind9 dnsutils
 
+        cp -v /vagrant/master/named /etc/default
+        cp -v /vagrant/master/named.conf.local /etc/bind
+        cp -v /vagrant/master/named.conf.options /etc/bind
+
+        systemctl restart bind9
+
       SHELL
   end
 
